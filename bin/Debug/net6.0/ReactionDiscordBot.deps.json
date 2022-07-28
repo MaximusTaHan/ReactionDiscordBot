@@ -1,0 +1,1172 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ReactionDiscordBot/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Hosting": "6.0.1",
+          "Microsoft.Extensions.Logging.Console": "7.0.0-preview.6.22324.4",
+          "Remora.Discord": "2022.45.0"
+        },
+        "runtime": {
+          "ReactionDiscordBot.dll": {}
+        }
+      },
+      "FuzzySharp/2.0.2": {
+        "runtime": {
+          "lib/netcoreapp2.1/FuzzySharp.dll": {
+            "assemblyVersion": "1.0.4.0",
+            "fileVersion": "1.0.4.0"
+          }
+        }
+      },
+      "Humanizer.Core/2.14.1": {
+        "runtime": {
+          "lib/net6.0/Humanizer.dll": {
+            "assemblyVersion": "2.14.0.0",
+            "fileVersion": "2.14.1.48190"
+          }
+        }
+      },
+      "JsonDocumentPath/1.0.3": {
+        "runtime": {
+          "lib/net6.0/JsonDocumentPath.dll": {
+            "assemblyVersion": "1.0.0.3",
+            "fileVersion": "1.0.0.3"
+          }
+        }
+      },
+      "Microsoft.Extensions.Caching.Abstractions/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "7.0.0-preview.6.22324.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Microsoft.Extensions.Caching.Memory/6.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.Options": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.Primitives": "7.0.0-preview.6.22324.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.222.6406"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration/7.0.0-preview.6.22324.4": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.Primitives": "7.0.0-preview.6.22324.4"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Configuration.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.32404"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/7.0.0-preview.6.22324.4": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "7.0.0-preview.6.22324.4"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.32404"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Binder/7.0.0-preview.6.22324.4": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0-preview.6.22324.4"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Configuration.Binder.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.32404"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.CommandLine/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0-preview.6.22324.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.CommandLine.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.EnvironmentVariables/6.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0-preview.6.22324.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.222.6406"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.FileExtensions/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0",
+          "Microsoft.Extensions.FileProviders.Physical": "6.0.0",
+          "Microsoft.Extensions.Primitives": "7.0.0-preview.6.22324.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.FileExtensions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Json/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.Configuration.FileExtensions": "6.0.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0",
+          "System.Text.Json": "7.0.0-preview.6.22324.4"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.Configuration.Json.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.UserSecrets/6.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.Configuration.Json": "6.0.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0",
+          "Microsoft.Extensions.FileProviders.Physical": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.UserSecrets.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.222.6406"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/7.0.0-preview.6.22324.4": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0-preview.6.22324.4"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.32404"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0-preview.6.22324.4": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.32404"
+          }
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Abstractions/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "7.0.0-preview.6.22324.4"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Physical/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0",
+          "Microsoft.Extensions.FileSystemGlobbing": "6.0.0",
+          "Microsoft.Extensions.Primitives": "7.0.0-preview.6.22324.4"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.FileProviders.Physical.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Microsoft.Extensions.FileSystemGlobbing/6.0.0": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.FileSystemGlobbing.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Microsoft.Extensions.Hosting/6.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.Configuration.Binder": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.Configuration.CommandLine": "6.0.0",
+          "Microsoft.Extensions.Configuration.EnvironmentVariables": "6.0.1",
+          "Microsoft.Extensions.Configuration.FileExtensions": "6.0.0",
+          "Microsoft.Extensions.Configuration.Json": "6.0.0",
+          "Microsoft.Extensions.Configuration.UserSecrets": "6.0.1",
+          "Microsoft.Extensions.DependencyInjection": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0",
+          "Microsoft.Extensions.FileProviders.Physical": "6.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.Logging.Configuration": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.Logging.Console": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.Logging.Debug": "6.0.0",
+          "Microsoft.Extensions.Logging.EventLog": "6.0.0",
+          "Microsoft.Extensions.Logging.EventSource": "6.0.0",
+          "Microsoft.Extensions.Options": "7.0.0-preview.6.22324.4"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Hosting.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.222.6406"
+          }
+        }
+      },
+      "Microsoft.Extensions.Hosting.Abstractions/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.Hosting.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Microsoft.Extensions.Http/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.Logging": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.Options": "7.0.0-preview.6.22324.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Microsoft.Extensions.Http.Polly/6.0.7": {
+        "dependencies": {
+          "Microsoft.Extensions.Http": "6.0.0",
+          "Polly": "7.2.3",
+          "Polly.Extensions.Http": "3.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.Polly.dll": {
+            "assemblyVersion": "6.0.7.0",
+            "fileVersion": "6.0.722.32205"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging/7.0.0-preview.6.22324.4": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.Options": "7.0.0-preview.6.22324.4"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Logging.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.32404"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/7.0.0-preview.6.22324.4": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.32404"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Configuration/7.0.0-preview.6.22324.4": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.Configuration.Binder": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.Logging": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.Options": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "7.0.0-preview.6.22324.4"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Logging.Configuration.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.32404"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Console/7.0.0-preview.6.22324.4": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.Logging": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.Logging.Configuration": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.Options": "7.0.0-preview.6.22324.4",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+          "System.Text.Json": "7.0.0-preview.6.22324.4"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Logging.Console.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.32404"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Debug/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.Logging": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.0-preview.6.22324.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Debug.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.EventLog/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.Logging": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.Options": "7.0.0-preview.6.22324.4",
+          "System.Diagnostics.EventLog": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.EventLog.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.EventSource/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.Logging": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.Options": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.Primitives": "7.0.0-preview.6.22324.4",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+          "System.Text.Json": "7.0.0-preview.6.22324.4"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Logging.EventSource.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/7.0.0-preview.6.22324.4": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.Primitives": "7.0.0-preview.6.22324.4"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.32404"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options.ConfigurationExtensions/7.0.0-preview.6.22324.4": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.Configuration.Binder": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.Options": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.Primitives": "7.0.0-preview.6.22324.4"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.32404"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/7.0.0-preview.6.22324.4": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.32404"
+          }
+        }
+      },
+      "NGettext/0.6.7": {
+        "runtime": {
+          "lib/netstandard2.0/NGettext.dll": {
+            "assemblyVersion": "0.6.1.0",
+            "fileVersion": "0.6.1.0"
+          }
+        }
+      },
+      "OneOf/3.0.223": {
+        "runtime": {
+          "lib/netstandard2.0/OneOf.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Polly/7.2.3": {
+        "runtime": {
+          "lib/netstandard2.0/Polly.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.2.3.0"
+          }
+        }
+      },
+      "Polly.Contrib.WaitAndRetry/1.1.1": {
+        "runtime": {
+          "lib/netstandard2.0/Polly.Contrib.WaitAndRetry.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.1.1.0"
+          }
+        }
+      },
+      "Polly.Extensions.Http/3.0.0": {
+        "dependencies": {
+          "Polly": "7.2.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Polly.Extensions.Http.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "Remora.Commands/10.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Options": "7.0.0-preview.6.22324.4",
+          "Remora.Results": "7.2.1"
+        },
+        "runtime": {
+          "lib/net6.0/Remora.Commands.dll": {
+            "assemblyVersion": "10.0.1.0",
+            "fileVersion": "10.0.1.0"
+          }
+        }
+      },
+      "Remora.Discord/2022.45.0": {
+        "dependencies": {
+          "Remora.Discord.Caching": "30.0.6",
+          "Remora.Discord.Commands": "25.2.1",
+          "Remora.Discord.Extensions": "5.0.2",
+          "Remora.Discord.Hosting": "5.0.25",
+          "Remora.Discord.Interactivity": "4.2.3",
+          "Remora.Discord.Pagination": "3.0.5"
+        }
+      },
+      "Remora.Discord.API/65.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "7.0.0-preview.6.22324.4",
+          "Microsoft.Extensions.Options": "7.0.0-preview.6.22324.4",
+          "Remora.Discord.API.Abstractions": "69.0.0",
+          "Remora.Rest": "2.0.4",
+          "System.Text.Json": "7.0.0-preview.6.22324.4"
+        },
+        "runtime": {
+          "lib/net6.0/Remora.Discord.API.dll": {
+            "assemblyVersion": "65.0.0.0",
+            "fileVersion": "65.0.0.0"
+          }
+        }
+      },
+      "Remora.Discord.API.Abstractions/69.0.0": {
+        "dependencies": {
+          "OneOf": "3.0.223",
+          "Remora.Rest.Core": "2.0.2",
+          "Remora.Results": "7.2.1"
+        },
+        "runtime": {
+          "lib/net6.0/Remora.Discord.API.Abstractions.dll": {
+            "assemblyVersion": "69.0.0.0",
+            "fileVersion": "69.0.0.0"
+          }
+        }
+      },
+      "Remora.Discord.Caching/30.0.6": {
+        "dependencies": {
+          "Remora.Discord.Caching.Abstractions": "1.0.1",
+          "Remora.Discord.Gateway": "10.1.5"
+        },
+        "runtime": {
+          "lib/net6.0/Remora.Discord.Caching.dll": {
+            "assemblyVersion": "30.0.6.0",
+            "fileVersion": "30.0.6.0"
+          }
+        }
+      },
+      "Remora.Discord.Caching.Abstractions/1.0.1": {
+        "dependencies": {
+          "Remora.Results": "7.2.1"
+        },
+        "runtime": {
+          "lib/net6.0/Remora.Discord.Caching.Abstractions.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      },
+      "Remora.Discord.Commands/25.2.1": {
+        "dependencies": {
+          "FuzzySharp": "2.0.2",
+          "Humanizer.Core": "2.14.1",
+          "NGettext": "0.6.7",
+          "Remora.Commands": "10.0.1",
+          "Remora.Discord.Gateway": "10.1.5",
+          "Remora.Extensions.Options.Immutable": "1.0.3",
+          "System.ComponentModel.Annotations": "5.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Remora.Discord.Commands.dll": {
+            "assemblyVersion": "25.2.1.0",
+            "fileVersion": "25.2.1.0"
+          }
+        }
+      },
+      "Remora.Discord.Extensions/5.0.2": {
+        "dependencies": {
+          "Remora.Discord.API": "65.0.0",
+          "Remora.Results": "7.2.1"
+        },
+        "runtime": {
+          "lib/net6.0/Remora.Discord.Extensions.dll": {
+            "assemblyVersion": "5.0.2.0",
+            "fileVersion": "5.0.2.0"
+          }
+        }
+      },
+      "Remora.Discord.Gateway/10.1.5": {
+        "dependencies": {
+          "Remora.Discord.Rest": "41.0.1",
+          "Remora.Extensions.Options.Immutable": "1.0.3",
+          "System.Threading.Channels": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Remora.Discord.Gateway.dll": {
+            "assemblyVersion": "10.1.5.0",
+            "fileVersion": "10.1.5.0"
+          }
+        }
+      },
+      "Remora.Discord.Hosting/5.0.25": {
+        "dependencies": {
+          "Microsoft.Extensions.Hosting.Abstractions": "6.0.0",
+          "Remora.Discord.Gateway": "10.1.5",
+          "Remora.Extensions.Options.Immutable": "1.0.3"
+        },
+        "runtime": {
+          "lib/net6.0/Remora.Discord.Hosting.dll": {
+            "assemblyVersion": "5.0.25.0",
+            "fileVersion": "5.0.25.0"
+          }
+        }
+      },
+      "Remora.Discord.Interactivity/4.2.3": {
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Memory": "6.0.1",
+          "Remora.Discord.Commands": "25.2.1",
+          "Remora.Discord.Gateway": "10.1.5"
+        },
+        "runtime": {
+          "lib/net6.0/Remora.Discord.Interactivity.dll": {
+            "assemblyVersion": "4.2.3.0",
+            "fileVersion": "4.2.3.0"
+          }
+        }
+      },
+      "Remora.Discord.Pagination/3.0.5": {
+        "dependencies": {
+          "Remora.Discord.Interactivity": "4.2.3"
+        },
+        "runtime": {
+          "lib/net6.0/Remora.Discord.Pagination.dll": {
+            "assemblyVersion": "3.0.5.0",
+            "fileVersion": "3.0.5.0"
+          }
+        }
+      },
+      "Remora.Discord.Rest/41.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Memory": "6.0.1",
+          "Microsoft.Extensions.Http.Polly": "6.0.7",
+          "Polly": "7.2.3",
+          "Polly.Contrib.WaitAndRetry": "1.1.1",
+          "Remora.Discord.API": "65.0.0",
+          "Remora.Discord.Caching.Abstractions": "1.0.1"
+        },
+        "runtime": {
+          "lib/net6.0/Remora.Discord.Rest.dll": {
+            "assemblyVersion": "41.0.1.0",
+            "fileVersion": "41.0.1.0"
+          }
+        }
+      },
+      "Remora.Extensions.Options.Immutable/1.0.3": {
+        "dependencies": {
+          "Microsoft.Extensions.Options": "7.0.0-preview.6.22324.4"
+        },
+        "runtime": {
+          "lib/net6.0/Remora.Extensions.Options.Immutable.dll": {
+            "assemblyVersion": "1.0.3.0",
+            "fileVersion": "1.0.3.0"
+          }
+        }
+      },
+      "Remora.Rest/2.0.4": {
+        "dependencies": {
+          "JsonDocumentPath": "1.0.3",
+          "Microsoft.Extensions.Http": "6.0.0",
+          "OneOf": "3.0.223",
+          "Remora.Rest.Core": "2.0.2",
+          "Remora.Results": "7.2.1",
+          "System.Text.Json": "7.0.0-preview.6.22324.4"
+        },
+        "runtime": {
+          "lib/net6.0/Remora.Rest.dll": {
+            "assemblyVersion": "2.0.4.0",
+            "fileVersion": "2.0.4.0"
+          }
+        }
+      },
+      "Remora.Rest.Core/2.0.2": {
+        "runtime": {
+          "lib/net6.0/Remora.Rest.Core.dll": {
+            "assemblyVersion": "2.0.2.0",
+            "fileVersion": "2.0.2.0"
+          }
+        }
+      },
+      "Remora.Results/7.2.1": {
+        "runtime": {
+          "lib/net6.0/Remora.Results.dll": {
+            "assemblyVersion": "7.2.1.0",
+            "fileVersion": "7.2.1.0"
+          }
+        }
+      },
+      "System.ComponentModel.Annotations/5.0.0": {},
+      "System.Diagnostics.EventLog/6.0.0": {
+        "runtime": {
+          "lib/net6.0/System.Diagnostics.EventLog.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
+      "System.Text.Encodings.Web/7.0.0-preview.6.22324.4": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Text.Encodings.Web.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.32404"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll": {
+            "rid": "browser",
+            "assetType": "runtime",
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.32404"
+          }
+        }
+      },
+      "System.Text.Json/7.0.0-preview.6.22324.4": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+          "System.Text.Encodings.Web": "7.0.0-preview.6.22324.4"
+        },
+        "runtime": {
+          "lib/net6.0/System.Text.Json.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.32404"
+          }
+        }
+      },
+      "System.Threading.Channels/6.0.0": {}
+    }
+  },
+  "libraries": {
+    "ReactionDiscordBot/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FuzzySharp/2.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sBKqWxw3g//peYxDZ8JipRlyPbIyBtgzqBVA5GqwHVeqtIrw75maGXAllztf+1aJhchD+drcQIgf2mFho8ZV8A==",
+      "path": "fuzzysharp/2.0.2",
+      "hashPath": "fuzzysharp.2.0.2.nupkg.sha512"
+    },
+    "Humanizer.Core/2.14.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
+      "path": "humanizer.core/2.14.1",
+      "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
+    },
+    "JsonDocumentPath/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4mgdlioVvfq6ZjftvsoKANWgpr/AU+UySiW68EjcbPbTfvcrZOlgS+6JkouRAN4TwI8dN2DUAVME7bklThk3KQ==",
+      "path": "jsondocumentpath/1.0.3",
+      "hashPath": "jsondocumentpath.1.0.3.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Caching.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bcz5sSFJbganH0+YrfvIjJDIcKNW7TL07C4d1eTmXy/wOt52iz4LVogJb6pazs7W0+74j0YpXFErvp++Aq5Bsw==",
+      "path": "microsoft.extensions.caching.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Caching.Memory/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-B4y+Cev05eMcjf1na0v9gza6GUtahXbtY1JCypIgx3B4Ea/KAgsWyXEmW4q6zMbmTMtKzmPVk09rvFJirvMwTg==",
+      "path": "microsoft.extensions.caching.memory/6.0.1",
+      "hashPath": "microsoft.extensions.caching.memory.6.0.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration/7.0.0-preview.6.22324.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ck1bU5IW1UZhaJyyF5WP1u8DgjPBBpLTiFyiIfDmH1DU6EpzttZ/S+OEPpHyetXnHrAe993y4uB30v6PIbAsxQ==",
+      "path": "microsoft.extensions.configuration/7.0.0-preview.6.22324.4",
+      "hashPath": "microsoft.extensions.configuration.7.0.0-preview.6.22324.4.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/7.0.0-preview.6.22324.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZWNFSq4SGcSGB5NW+Odvc7qfVrkG2Bxp8i0ncq6vd7hoP4L08WJdIzyKKsxKtlNFH9nB/Sq7iSQO5ux7NvHvjQ==",
+      "path": "microsoft.extensions.configuration.abstractions/7.0.0-preview.6.22324.4",
+      "hashPath": "microsoft.extensions.configuration.abstractions.7.0.0-preview.6.22324.4.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Binder/7.0.0-preview.6.22324.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mBKOV1Qd3EEz1fhxt3vCNiJhQFVnDEiEsK2aa7pyhNEvA4s8AAlx+8rpwDpC0WxtBuyXh9cmWBGXrK2+tfbpaA==",
+      "path": "microsoft.extensions.configuration.binder/7.0.0-preview.6.22324.4",
+      "hashPath": "microsoft.extensions.configuration.binder.7.0.0-preview.6.22324.4.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.CommandLine/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3nL1qCkZ1Oxx14ZTzgo4MmlO7tso7F+TtMZAY2jUAtTLyAcDp+EDjk3RqafoKiNaePyPvvlleEcBxh3b2Hzl1g==",
+      "path": "microsoft.extensions.configuration.commandline/6.0.0",
+      "hashPath": "microsoft.extensions.configuration.commandline.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.EnvironmentVariables/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pnyXV1LFOsYjGveuC07xp0YHIyGq7jRq5Ncb5zrrIieMLWVwgMyYxcOH0jTnBedDT4Gh1QinSqsjqzcieHk1og==",
+      "path": "microsoft.extensions.configuration.environmentvariables/6.0.1",
+      "hashPath": "microsoft.extensions.configuration.environmentvariables.6.0.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.FileExtensions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-V4Dth2cYMZpw3HhGw9XUDIijpI6gN+22LDt0AhufIgOppCUfpWX4483OmN+dFXRJkJLc8Tv0Q8QK+1ingT2+KQ==",
+      "path": "microsoft.extensions.configuration.fileextensions/6.0.0",
+      "hashPath": "microsoft.extensions.configuration.fileextensions.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Json/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GJGery6QytCzS/BxJ96klgG9in3uH26KcUBbiVG/coNDXCRq6LGVVlUT4vXq34KPuM+R2av+LeYdX9h4IZOCUg==",
+      "path": "microsoft.extensions.configuration.json/6.0.0",
+      "hashPath": "microsoft.extensions.configuration.json.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.UserSecrets/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Fy8yr4V6obi7ZxvKYI1i85jqtwMq8tqyxQVZpRSkgeA8enqy/KvBIMdcuNdznlxQMZa72mvbHqb7vbg4Pyx95w==",
+      "path": "microsoft.extensions.configuration.usersecrets/6.0.1",
+      "hashPath": "microsoft.extensions.configuration.usersecrets.6.0.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection/7.0.0-preview.6.22324.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AT8UCOx2QM+yPphoEDNzMjfpDAGTtCvjoLedIMewvxEsZurDaRVrPSbdmCtNqSq6S3TczsNpYOx1dq2EHDiisg==",
+      "path": "microsoft.extensions.dependencyinjection/7.0.0-preview.6.22324.4",
+      "hashPath": "microsoft.extensions.dependencyinjection.7.0.0-preview.6.22324.4.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0-preview.6.22324.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ewxeza+4E2Y6g/y8sDqlZeKPxguj0s/epsG8SC3DlkVwsb+oiTtcByMALg7VhAEwzoCwZrJvIvJtIW03GDOBrA==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/7.0.0-preview.6.22324.4",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.7.0.0-preview.6.22324.4.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0pd4/fho0gC12rQswaGQxbU34jOS1TPS8lZPpkFCH68ppQjHNHYle9iRuHeev1LhrJ94YPvzcRd8UmIuFk23Qw==",
+      "path": "microsoft.extensions.fileproviders.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.fileproviders.abstractions.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Physical/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QvkL7l0nM8udt3gfyu0Vw8bbCXblxaKOl7c2oBfgGy4LCURRaL9XWZX1FWJrQc43oMokVneVxH38iz+bY1sbhg==",
+      "path": "microsoft.extensions.fileproviders.physical/6.0.0",
+      "hashPath": "microsoft.extensions.fileproviders.physical.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileSystemGlobbing/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ip8jnL1aPiaPeKINCqaTEbvBFDmVx9dXQEBZ2HOBRXPD1eabGNqP/bKlsIcp7U2lGxiXd5xIhoFcmY8nM4Hdiw==",
+      "path": "microsoft.extensions.filesystemglobbing/6.0.0",
+      "hashPath": "microsoft.extensions.filesystemglobbing.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Hosting/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hbmizc9KPWOacLU8Z8YMaBG6KWdZFppczYV/KwnPGU/8xebWxQxdDeJmLOgg968prb7g2oQgnp6JVLX6lgby8g==",
+      "path": "microsoft.extensions.hosting/6.0.1",
+      "hashPath": "microsoft.extensions.hosting.6.0.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Hosting.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GcT5l2CYXL6Sa27KCSh0TixsRfADUgth+ojQSD5EkzisZxmGFh7CwzkcYuGwvmXLjr27uWRNrJ2vuuEjMhU05Q==",
+      "path": "microsoft.extensions.hosting.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.hosting.abstractions.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Http/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-15+pa2G0bAMHbHewaQIdr/y6ag2H3yh4rd9hTXavtWDzQBkvpe2RMqFg8BxDpcQWssmjmBApGPcw93QRz6YcMg==",
+      "path": "microsoft.extensions.http/6.0.0",
+      "hashPath": "microsoft.extensions.http.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Http.Polly/6.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JfnvJFyyREfeOVLuBSndcxMtK0kPiIE42FlN1qLjlwnk4irdNOrExYf9GoDLve9MIkEncDuqJPbmGLIfFaPuKA==",
+      "path": "microsoft.extensions.http.polly/6.0.7",
+      "hashPath": "microsoft.extensions.http.polly.6.0.7.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging/7.0.0-preview.6.22324.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cY9DCAG2Gapfg0ChOK9DmPH7C1EpQpNntfUZlcLQWaiU5hUbfS7BR3ViXSX5PX6i1HzeNjQ4BWDSzuAkLVPBFg==",
+      "path": "microsoft.extensions.logging/7.0.0-preview.6.22324.4",
+      "hashPath": "microsoft.extensions.logging.7.0.0-preview.6.22324.4.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/7.0.0-preview.6.22324.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TQmvaGRgXNWsEf/Vk+fDy0+Y2m+EuqElP63Vlz5RMhSk2Zr6hG7kNAXuABjTLmK7AU8g67Di8XGw+4VkKu2yDQ==",
+      "path": "microsoft.extensions.logging.abstractions/7.0.0-preview.6.22324.4",
+      "hashPath": "microsoft.extensions.logging.abstractions.7.0.0-preview.6.22324.4.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Configuration/7.0.0-preview.6.22324.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-R7tMrNvsSELaLwfFSdRyaRPJxXlU5jb+7QUma3TB/z/B03SflVI100VDHa/bkhulEObh+vkr20LzdOnbCEGtXw==",
+      "path": "microsoft.extensions.logging.configuration/7.0.0-preview.6.22324.4",
+      "hashPath": "microsoft.extensions.logging.configuration.7.0.0-preview.6.22324.4.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Console/7.0.0-preview.6.22324.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cm75hbmVc+Bv9HlJv1g/EJFC1BCyCKXSmIpG/YcJ/ffN99k1muc52kXlVK4PNqt211Xt4qbGLDa+3fT7ODMozw==",
+      "path": "microsoft.extensions.logging.console/7.0.0-preview.6.22324.4",
+      "hashPath": "microsoft.extensions.logging.console.7.0.0-preview.6.22324.4.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Debug/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-M9g/JixseSZATJE9tcMn9uzoD4+DbSglivFqVx8YkRJ7VVPmnvCEbOZ0AAaxsL1EKyI4cz07DXOOJExxNsUOHw==",
+      "path": "microsoft.extensions.logging.debug/6.0.0",
+      "hashPath": "microsoft.extensions.logging.debug.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.EventLog/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rlo0RxlMd0WtLG3CHI0qOTp6fFn7MvQjlrCjucA31RqmiMFCZkF8CHNbe8O7tbBIyyoLGWB1he9CbaA5iyHthg==",
+      "path": "microsoft.extensions.logging.eventlog/6.0.0",
+      "hashPath": "microsoft.extensions.logging.eventlog.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.EventSource/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BeDyyqt7nkm/nr+Gdk+L8n1tUT/u33VkbXAOesgYSNsxDM9hJ1NOBGoZfj9rCbeD2+9myElI6JOVVFmnzgeWQA==",
+      "path": "microsoft.extensions.logging.eventsource/6.0.0",
+      "hashPath": "microsoft.extensions.logging.eventsource.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/7.0.0-preview.6.22324.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-k1NT/Ms656c/6qim6uowNGdv06oo9yFpVaRhjj/uqFFwt6XYdx1AqWqycVo2WMw9jjCEdSh3WPmu3sXv48/+MQ==",
+      "path": "microsoft.extensions.options/7.0.0-preview.6.22324.4",
+      "hashPath": "microsoft.extensions.options.7.0.0-preview.6.22324.4.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options.ConfigurationExtensions/7.0.0-preview.6.22324.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-L4NLT/IoYMK8+Xa2EMPY/eeex0xT4tPdOs+qaiY+I8BE2oHGnIMTbJtz6EKVVh4TVI8RbtTEiGbSNhY6IO397Q==",
+      "path": "microsoft.extensions.options.configurationextensions/7.0.0-preview.6.22324.4",
+      "hashPath": "microsoft.extensions.options.configurationextensions.7.0.0-preview.6.22324.4.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/7.0.0-preview.6.22324.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-T1TTou/pPOHs4B+gFQDZfj5I7qbZGL20myaRJrb1IoDsHPDsweeaPL+cO2RzP60YhuYoy1MK8krIpvQDrCcQow==",
+      "path": "microsoft.extensions.primitives/7.0.0-preview.6.22324.4",
+      "hashPath": "microsoft.extensions.primitives.7.0.0-preview.6.22324.4.nupkg.sha512"
+    },
+    "NGettext/0.6.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gT6bf5PVayvTuEIuM2XSNqthrtn9W+LlCX4RD//Nb4hrT3agohHvPdjpROgNGgyXDkjwE74F+EwDwqUgJCJG8A==",
+      "path": "ngettext/0.6.7",
+      "hashPath": "ngettext.0.6.7.nupkg.sha512"
+    },
+    "OneOf/3.0.223": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YWabiHBFfDdKIO7/TEa72mARVVo5u5FqFnfXuTqjIupMvJlhoH8d0m4uKtczaINuT0vGR1qlXJayeU6bTw5myg==",
+      "path": "oneof/3.0.223",
+      "hashPath": "oneof.3.0.223.nupkg.sha512"
+    },
+    "Polly/7.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DeCY0OFbNdNxsjntr1gTXHJ5pKUwYzp04Er2LLeN3g6pWhffsGuKVfMBLe1lw7x76HrPkLxKEFxBlpRxS2nDEQ==",
+      "path": "polly/7.2.3",
+      "hashPath": "polly.7.2.3.nupkg.sha512"
+    },
+    "Polly.Contrib.WaitAndRetry/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1MUQLiSo4KDkQe6nzQRhIU05lm9jlexX5BVsbuw0SL82ynZ+GzAHQxJVDPVBboxV37Po3SG077aX8DuSy8TkaA==",
+      "path": "polly.contrib.waitandretry/1.1.1",
+      "hashPath": "polly.contrib.waitandretry.1.1.1.nupkg.sha512"
+    },
+    "Polly.Extensions.Http/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-drrG+hB3pYFY7w1c3BD+lSGYvH2oIclH8GRSehgfyP5kjnFnHKQuuBhuHLv+PWyFuaTDyk/vfRpnxOzd11+J8g==",
+      "path": "polly.extensions.http/3.0.0",
+      "hashPath": "polly.extensions.http.3.0.0.nupkg.sha512"
+    },
+    "Remora.Commands/10.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rwrwcpALL2qcFtyqj2fAAbT1d22UHLHLlN5rpILoOzcVhEX9F/RzuyAlJCWh1h6Vu4eKwEpVR+ORD4vQIJdXOg==",
+      "path": "remora.commands/10.0.1",
+      "hashPath": "remora.commands.10.0.1.nupkg.sha512"
+    },
+    "Remora.Discord/2022.45.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gwUX7dOwQYRqYJ8rqSr4Jwq/SuWmUZTOuzG3NQEZIpSHSjylMUqErUAwT3PiN7HkjwUyw0uKSJVQXe4HPTmIQw==",
+      "path": "remora.discord/2022.45.0",
+      "hashPath": "remora.discord.2022.45.0.nupkg.sha512"
+    },
+    "Remora.Discord.API/65.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-deCt7vMsAM6HZPn2ooIZwSaheIbpFZR1o7Yn4PTl6z0LmrVV3VuH99w/oKKkVciWMwKMngZPyljEmi6BVybd6g==",
+      "path": "remora.discord.api/65.0.0",
+      "hashPath": "remora.discord.api.65.0.0.nupkg.sha512"
+    },
+    "Remora.Discord.API.Abstractions/69.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TB0Ev+m1VVlYl3iHpZREAEFbx662ClJydTBGOyLhcTYV061bUceXVuhBgjdlyqRM9QVjb9mlVWWQnsj9M5ieXQ==",
+      "path": "remora.discord.api.abstractions/69.0.0",
+      "hashPath": "remora.discord.api.abstractions.69.0.0.nupkg.sha512"
+    },
+    "Remora.Discord.Caching/30.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-utUpoTRIIkKUfF+DjXwqYgVLvafsTFnHmH6H8DO33J4Yd3hcZ94C42LYPvicuDJqTgqeBm+IVsa+YvEinHSMPg==",
+      "path": "remora.discord.caching/30.0.6",
+      "hashPath": "remora.discord.caching.30.0.6.nupkg.sha512"
+    },
+    "Remora.Discord.Caching.Abstractions/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3AH1kPW71B6nBEfxCJyUh+PkGd3VjohyJQTyRru2rqW9UTcp1CCirysTfFBfip54aeC4nBnUL6xn+SXEk4TI9w==",
+      "path": "remora.discord.caching.abstractions/1.0.1",
+      "hashPath": "remora.discord.caching.abstractions.1.0.1.nupkg.sha512"
+    },
+    "Remora.Discord.Commands/25.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tAEb8e8Z+PoqJPhKsgJui+xqt4/iZxdi9SqABoBQpQmu529FLruiE5YnFnpsaAs9x0Vy7dmHFozHCiw7Emqa0g==",
+      "path": "remora.discord.commands/25.2.1",
+      "hashPath": "remora.discord.commands.25.2.1.nupkg.sha512"
+    },
+    "Remora.Discord.Extensions/5.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CphdTN+Dv7N/mf85VJ2kE5a2yeOMZ0JWsRrzo/SFlZ+Ybw02Kb+2HK32KVc7DtIjmpZZlgllxs5DlXQwDXukDg==",
+      "path": "remora.discord.extensions/5.0.2",
+      "hashPath": "remora.discord.extensions.5.0.2.nupkg.sha512"
+    },
+    "Remora.Discord.Gateway/10.1.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-s1hUS7aoCkCFWFvoRg6lv7MFfo2YEfBRGul0mXBhZQTUIhcRqsDpi+bk1/xaEkD6T3/TLHSw/qUPklzb6zrUtw==",
+      "path": "remora.discord.gateway/10.1.5",
+      "hashPath": "remora.discord.gateway.10.1.5.nupkg.sha512"
+    },
+    "Remora.Discord.Hosting/5.0.25": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9Jb1Tc5GFiU2QuHryIifsfIpENytXntOl0nAW4YH4OnY7Zoc/Nm0W7gczHg/bdr31l8Bopsb+BQBVDSLGTj0rg==",
+      "path": "remora.discord.hosting/5.0.25",
+      "hashPath": "remora.discord.hosting.5.0.25.nupkg.sha512"
+    },
+    "Remora.Discord.Interactivity/4.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7vKiO6hRwvPfnVu4B+vdP4azNMVv5b9TTwonVIoxUF5ekMbi7E+Lzf+CRuQKpch56iZ5DoGXafKypt505hpIkw==",
+      "path": "remora.discord.interactivity/4.2.3",
+      "hashPath": "remora.discord.interactivity.4.2.3.nupkg.sha512"
+    },
+    "Remora.Discord.Pagination/3.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vSofF2QG7OjhxHrNV5ykAY9TbMcarhmmyQ++sA/xXOC1PPh3s65M1jzRxstHaQsHtqcyAD3Q2gbhLKJOPcfkzA==",
+      "path": "remora.discord.pagination/3.0.5",
+      "hashPath": "remora.discord.pagination.3.0.5.nupkg.sha512"
+    },
+    "Remora.Discord.Rest/41.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gcPXOgIrKK9U4i434/xbx/RBaHSQLqFOFJ/V5woB/FQbIVwmDOHZhFM/owXgpaWbT+3Z2Xyv281sgXHNK8C0bg==",
+      "path": "remora.discord.rest/41.0.1",
+      "hashPath": "remora.discord.rest.41.0.1.nupkg.sha512"
+    },
+    "Remora.Extensions.Options.Immutable/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TRDo4VeoUpNUNbopibYosNVqvEc7/eO5hzSXrg0A46IIgSt75HaTiaEIDY029dpzNLdxuF2Q4yfbTHtwr3QDeQ==",
+      "path": "remora.extensions.options.immutable/1.0.3",
+      "hashPath": "remora.extensions.options.immutable.1.0.3.nupkg.sha512"
+    },
+    "Remora.Rest/2.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MeYHAfQ0jn/jApW8KAlNVu8OQUNRc9g9PAqTErywkKvMXcJEdrluYBcAUqKqWY0btyqtB0H88y6neEamYqUF4Q==",
+      "path": "remora.rest/2.0.4",
+      "hashPath": "remora.rest.2.0.4.nupkg.sha512"
+    },
+    "Remora.Rest.Core/2.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7MSeMl+mvjcTK2i5ftxJ5MFt4yDt5ymTKo9ftYnowBX/VNcek08WQBeDyRH4fdU+icAOy2cBDH+UZRLANIS6MQ==",
+      "path": "remora.rest.core/2.0.2",
+      "hashPath": "remora.rest.core.2.0.2.nupkg.sha512"
+    },
+    "Remora.Results/7.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-W1CiO/Vg9oyBEEgqCi0lpGvBPaHUdQ2qLHlwFjj34EBwy1oPuRFuqjYa3XWIthES4CSot9gGW+OQ7ZKh0aHkFg==",
+      "path": "remora.results/7.2.1",
+      "hashPath": "remora.results.7.2.1.nupkg.sha512"
+    },
+    "System.ComponentModel.Annotations/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dMkqfy2el8A8/I76n2Hi1oBFEbG1SfxD2l5nhwXV3XjlnOmwxJlQbYpJH4W51odnU9sARCSAgv7S3CyAFMkpYg==",
+      "path": "system.componentmodel.annotations/5.0.0",
+      "hashPath": "system.componentmodel.annotations.5.0.0.nupkg.sha512"
+    },
+    "System.Diagnostics.EventLog/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lcyUiXTsETK2ALsZrX+nWuHSIQeazhqPphLfaRxzdGaG93+0kELqpgEHtwWOlQe7+jSFnKwaCAgL4kjeZCQJnw==",
+      "path": "system.diagnostics.eventlog/6.0.0",
+      "hashPath": "system.diagnostics.eventlog.6.0.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    },
+    "System.Text.Encodings.Web/7.0.0-preview.6.22324.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HE5iE2EVnX5hJJHYUSXI0TKwLXgAwhKJuPjWKv80NdaoJ+Nq4P444xGNS2C1MFnflYqkpf6zvbHWJkbqJH8DDA==",
+      "path": "system.text.encodings.web/7.0.0-preview.6.22324.4",
+      "hashPath": "system.text.encodings.web.7.0.0-preview.6.22324.4.nupkg.sha512"
+    },
+    "System.Text.Json/7.0.0-preview.6.22324.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MiW8tj5icZ19UHYfMgxzmk0k8OHNKhxN+5YiAgTXXWhGSbtoNmoP3lS+/4KTu7VtgTUCyIOaBYI7q/zLZguXMA==",
+      "path": "system.text.json/7.0.0-preview.6.22324.4",
+      "hashPath": "system.text.json.7.0.0-preview.6.22324.4.nupkg.sha512"
+    },
+    "System.Threading.Channels/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TY8/9+tI0mNaUMgntOxxaq2ndTkdXqLSxvPmas7XEqOlv9lQtB7wLjYGd756lOaO7Dvb5r/WXhluM+0Xe87v5Q==",
+      "path": "system.threading.channels/6.0.0",
+      "hashPath": "system.threading.channels.6.0.0.nupkg.sha512"
+    }
+  }
+}

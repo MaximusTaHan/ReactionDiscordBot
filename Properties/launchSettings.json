@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "PingPong": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "REMORA_BOT_TOKEN": "MTAwMTQ1NDAyNTI3MjczNzgxMg.GAKyfF.If27_U3yFFM-nzDWCWgiIZAZ20uGE_TmoTFXb4"
+      }
+    }
+  }
+}
