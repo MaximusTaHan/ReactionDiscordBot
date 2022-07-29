@@ -1,5 +1,4 @@
-﻿using System.Drawing;
-using Remora.Discord.API;
+﻿using Remora.Discord.API;
 using Remora.Discord.API.Abstractions.Gateway.Events;
 using Remora.Discord.API.Abstractions.Rest;
 using Remora.Discord.Gateway.Responders;

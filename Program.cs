@@ -1,34 +1,18 @@
-﻿using System;
-using System.Threading;
-using System.Threading.Tasks;
-using Microsoft.Extensions.Configuration;
+﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Remora.Discord.API.Abstractions.Gateway.Commands;
-using Remora.Discord.Commands.Extensions;
 using Remora.Discord.Gateway;
 using Remora.Discord.Gateway.Extensions;
-using Remora.Discord.Gateway.Results;
 using Remora.Discord.Hosting.Extensions;
-using Remora.Results;
 
 namespace ReactionDiscordBot
 {
     public class Program
     {
-        /// <summary>
-        /// The main entrypoint of the program.
-        /// </summary>
-        /// <param name="args">The command-line arguments.</param>
-        /// <returns>A <see cref="Task"/> representing the asynchronous program execution.</returns>
         public static Task Main(string[] args) => CreateHostBuilder(args).RunConsoleAsync();
 
-        /// <summary>
-        /// Creates a generic application host builder.
-        /// </summary>
-        /// <param name="args">The arguments passed to the application.</param>
-        /// <returns>The host builder.</returns>
         private static IHostBuilder CreateHostBuilder(string[] args) => Host.CreateDefaultBuilder(args)
             .AddDiscordService
             (
@@ -50,7 +34,6 @@ namespace ReactionDiscordBot
                 {
                     services.Configure<DiscordGatewayClientOptions>(g =>
                         {
-                            g.Intents |= GatewayIntents.MessageContents;
                             g.Intents |= GatewayIntents.GuildMessageReactions;
                             g.Intents |= GatewayIntents.GuildMembers;
                         });

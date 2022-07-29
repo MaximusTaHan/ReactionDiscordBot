@@ -2,9 +2,9 @@
   "profiles": {
     "PingPong": {
       "commandName": "Project",
-      "environmentVariables": {
-        "REMORA_BOT_TOKEN": "TokenHere"
-      }
+        "environmentVariables": {
+            "REMORA_BOT_TOKEN": "TokenHere"
+        }
     }
   }
 }
