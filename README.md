@@ -13,8 +13,9 @@ In ConfigureServices you need to register the intents of your bot, this tells Di
 
 For this bot we need the "GuildMessageReactions" and "GuildMembers" intent. 
 The first gets sent an event when a server member reacts to any message, this means you have to make conditions for when to send back a response.
-Discord provides almost everything with a unique id, so we can look for when a reaction happened on a chosen message.
-The native emotes are one of the things that doesnt have an id so we have to use its Unicode value (Discord name: `:white_check_mark:` Unicode: ✅).
+
+Discord provides almost everything with a unique id, so we can look for when a reaction happened on a chosen message through its id.
+The native emotes are one of the things that doesnt have an id so we have to use its Encoded value (Discord name: `:white_check_mark:` Encoded: ✅).
 
 Then we register the ReactionHandler with the AddResponder method. 
 This adds a responder to the service collection which in turn allows you to use all the IResponder implementations it supports.
